@@ -9,7 +9,7 @@ import AboutMovie from './pages/AboutMovie';
 import Contact from './components/Contact';
 
 export const CommonContext = React.createContext()
-const apiurl = 'http://localhost:8000'
+const apiurl = 'https://movie-booking-app-backend.herokuapp.com'
 
 const App = () => {
   return (
